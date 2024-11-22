@@ -383,6 +383,10 @@ hexo.extend.filter.register('before_generate', () => {
     crisp: {
       website_id: null
     },
+    tawk: {
+      id: null,
+      embed_id: null
+    },
     baidu_analytics: null,
     google_analytics: null,
     cloudflare_analytics: null,
