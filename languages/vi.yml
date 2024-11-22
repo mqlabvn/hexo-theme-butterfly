@@ -1,0 +1,121 @@
+footer:
+  framework: Framework
+  theme: Theme
+
+copy:
+  success: Sao chép thành công
+  error: Sao chép thất bại
+  noSupport: Trình duyệt không được hỗ trợ
+
+page:
+  articles: Tất cả bài viết
+  tag: Thẻ
+  category: Danh mục
+  archives: Bài viết
+
+card_post_count: Bình luận
+
+no_title: Không có tiêu đề
+
+post:
+  created: Đã tạo
+  updated: Đã cập nhật
+  wordcount: Số từ
+  min2read: Thời gian đọc
+  min2read_unit: phút
+  page_pv: Số lượt xem
+  comments: Bình luận
+  copyright:
+    author: Tác giả
+    link: Liên kết
+    copyright_notice: Copyright Notice
+    copyright_content: 'Tất cả các bài viết trên blog này đều được cấp phép theo <a href="%s">%s</a> trừ khi có quy định khác.'
+  recommend: Bài viết liên quan
+  edit: Chỉnh sửa
+
+search:
+  title: Tìm kiếm
+  load_data: Đang tải dữ liệu
+  input_placeholder: Tìm kiếm bài viết
+  algolia_search:
+    hits_empty: 'Không tìm thấy kết quả nào cho: ${query}'
+    hits_stats: '${hits} kết quả được tìm thấy trong ${time} ms'
+  local_search:
+    hits_empty: 'Không tìm thấy kết quả nào cho: ${query}'
+    hits_stats: 'Đã tìm thấy ${hits} bài viết'
+
+pagination:
+  prev: Trước
+  next: Sau
+
+comment: Bình luận
+
+aside:
+  articles: Bài viết
+  tags: Thẻ
+  categories: Danh mục
+  card_announcement: Thông báo
+  card_categories: Danh mục
+  card_tags: Thẻ
+  card_archives: Bài viết
+  card_recent_post: Bài viết mới
+  card_webinfo:
+    headline: Thông tin web
+    article_name: Số bài viết
+    runtime:
+      name: Thời gian hoạt động
+      unit: ngày
+    last_push_date:
+      name: Cập nhật lần cuối
+    site_wordcount: Tổng số từ
+    site_uv_name: Khách truy cập
+    site_pv_name: Lượt xem trang
+  more_button: Xem thêm
+  card_newest_comments:
+    headline: Bình luận mới nhất
+    loading_text: Đang tải...
+    error: Không thể lấy lại bình luận, vui lòng kiểm tra cấu hình
+    zero: Không có bình luận
+    image: Ảnh
+    link: Liên kết
+    code: Code
+  card_toc: Nội dung
+  card_post_series: Post Series
+
+date_suffix:
+  just: Vừa xong
+  min: phút trước
+  hour: giờ trước
+  day: ngày trước
+  month: tháng trước
+
+donate: Nhà tài trợ
+share: Chia sẻ
+
+rightside:
+  readmode_title: Chế độ đọc
+  translate_title: Chuyển đổi giữa tiếng Trung phồn thể và giản thể
+  night_mode_title: Chuyển đổi giữa chế độ sáng và tối
+  back_to_top: Lên đầu trang
+  toc: Mục lục
+  scroll_to_comment: Xuống phần Bình luận
+  setting: Cài đặt
+  aside: Chuyển đổi giữa cột đơn và cột đôi
+  chat: Chat
+
+copy_copyright:
+  author: Tác giả
+  link: Liên kết
+  source: Nguồn
+  info: Bản quyền thuộc về tác giả. Đối với mục đích thương mại, vui lòng liên hệ với tác giả để được ủy quyền. Đối với mục đích phi thương mại, vui lòng ghi rõ nguồn.
+
+Snackbar:
+  chs_to_cht: Bạn đã chuyển sang tiếng Trung phồn thể
+  cht_to_chs: Bạn đã chuyển sang tiếng Trung giản thể
+  day_to_night: Bạn đã chuyển sang Chế độ tối
+  night_to_day: Bạn đã chuyển sang Chế độ sáng
+
+loading: Đang tải...
+load_more: Tải thêm
+
+error404:  Không tìm thấy trang
