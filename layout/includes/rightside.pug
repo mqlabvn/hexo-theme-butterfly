@@ -5,14 +5,14 @@ mixin rightsideItem(array)
       when 'readmode'
         if is_post() && readmode
           button#readmode(type="button" title=_p('rightside.readmode_title'))
-            i.fas.fa-book-open
+            i.fas.fa-book-journal-whills
       when 'translate'
         if translate.enable
           button#translateLink(type="button" title=_p('rightside.translate_title'))= translate.default
       when 'darkmode'
         if darkmode.enable && darkmode.button
           button#darkmode(type="button" title=_p('rightside.night_mode_title'))
-            i.fas.fa-adjust
+            i.fas.fa-shield-halved
       when 'hideAside'
         if aside.enable && aside.button && page.aside !== false
           button#hide-aside-btn(type="button" title=_p('rightside.aside'))
@@ -43,15 +43,15 @@ mixin rightsideItem(array)
     if enable
       if hide
         button#rightside-config(type="button" title=_p("rightside.setting"))
-          i.fas.fa-cog.fa-spin
+          i.fas.fa-fan.fa-spin
     else
       if is_post()
         if (readmode || translate.enable || (darkmode.enable && darkmode.button))
           button#rightside-config(type="button" title=_p("rightside.setting"))
-            i.fas.fa-cog.fa-spin
+            i.fas.fa-hurricane.fa-spin
       else if translate.enable || (darkmode.enable && darkmode.button)
         button#rightside-config(type="button" title=_p("rightside.setting"))
-          i.fas.fa-cog.fa-spin
+          i.fas.fa-compass.fa-spin
 
     if showArray
       +rightsideItem(showArray)
