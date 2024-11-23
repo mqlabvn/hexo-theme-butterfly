@@ -18,8 +18,8 @@ card_post_count: Bình luận
 no_title: Không có tiêu đề
 
 post:
-  created: Đã tạo
-  updated: Đã cập nhật
+  created: Tạo ngày
+  updated: Cập nhật ngày
   wordcount: Số từ
   min2read: Thời gian đọc
   min2read_unit: phút
@@ -54,13 +54,13 @@ aside:
   articles: Bài viết
   tags: Thẻ
   categories: Danh mục
-  card_announcement: Thông báo
+  card_announcement: Cảnh báo rủi ro
   card_categories: Danh mục
   card_tags: Thẻ
   card_archives: Bài viết
   card_recent_post: Bài viết mới
   card_webinfo:
-    headline: Thông tin web
+    headline: Thống kê
     article_name: Số bài viết
     runtime:
       name: Thời gian hoạt động
@@ -74,7 +74,7 @@ aside:
   card_newest_comments:
     headline: Bình luận mới nhất
     loading_text: Đang tải...
-    error: Không thể lấy lại bình luận, vui lòng kiểm tra cấu hình
+    error: Không thể lấy bình luận, vui lòng kiểm tra cấu hình
     zero: Không có bình luận
     image: Ảnh
     link: Liên kết
