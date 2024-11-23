@@ -3,7 +3,7 @@ if theme.post_copyright.enable && page.copyright !== false
   - const authorHref = page.copyright_author_href || theme.post_copyright.author_href || config.url
   - const url = page.copyright_url || page.permalink
   - const info = page.copyright_info || _p('post.copyright.copyright_content', theme.post_copyright.license_url, theme.post_copyright.license, config.url, config.title)
-  .post-copyright
+  .post-copyright(data-pagefind-ignore)
     .post-copyright__author
       span.post-copyright-meta
         i.fas.fa-circle-user.fa-fw

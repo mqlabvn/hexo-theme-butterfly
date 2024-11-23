@@ -11,7 +11,7 @@ block content
       else
         !=page.content
     include includes/post/post-copyright.pug
-    .tag_share
+    .tag_share(data-pagefind-ignore)
       if (page.tags.length > 0 && theme.post_meta.post.tags)
         .post-meta__tag-list
           each item, index in page.tags.data

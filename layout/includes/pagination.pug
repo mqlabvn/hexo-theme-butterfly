@@ -9,7 +9,7 @@
 if is_post()
   - let paginationOrder = theme.post_pagination === 1 ? { prev: page.prev, next: page.next } : { prev: page.next, next: page.prev }
 
-  nav#pagination.pagination-post
+  nav#pagination.pagination-post(data-pagefind-ignore)
     each direction, key in paginationOrder
       if direction
         - const getPostDesc = direction.postDesc || postDesc(direction)
